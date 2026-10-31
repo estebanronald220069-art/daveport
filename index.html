@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dave John S. Reyes - Aspiring Web Developer and Tech Enthusiast.">
+    <meta name="author" content="Dave John S. Reyes">
+    <title>Dave John S. Reyes | Developer Portfolio</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="nav container">
+            <!-- Changed Logo Name -->
+            <a href="#" class="nav-logo">Dave.Reyes<span>.</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <span class="hero-greeting">Hello, World! I am</span>
+                <h1 class="hero-name">Dave John S. Reyes</h1>
+                <h2 class="hero-role">I build <span class="typewriter" id="typewriter"></span><span class="cursor">|</span></h2>
+                <p class="hero-desc">
+                    A passionate developer dedicated to creating modern, efficient, and user-friendly web experiences. I turn ideas into interactive realities.
+                </p>
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-glow">Discover More <i class="fas fa-arrow-down"></i></a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="glass-frame">
+                    <!-- Profile Picture -->
+                    <img src="images/2x2.jpg" alt="Dave John S. Reyes">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section container" id="about">
+            <h2 class="section-title">About <span>Me</span></h2>
+            
+            <div class="glass-card about-card">
+                <div class="about-text">
+                    <h3>Hi, I'm Dave! 👋</h3>
+                    <p>
+                        I am a tech enthusiast and an aspiring web developer. My journey in technology started with a simple curiosity about how websites work, which quickly turned into a deep passion for coding and design.
+                    </p>
+                    <p>
+                        I enjoy the challenge of solving complex problems and the satisfaction of seeing a project come to life. My goal is to continuously learn, adapt to new technologies, and build solutions that make a difference.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-label">Dedication</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">∞</span>
+                            <span class="stat-label">Curiosity</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">24/7</span>
+                            <span class="stat-label">Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section (D.A.V.E) -->
+        <section class="section container" id="philosophy">
+            <h2 class="section-title">My <span>Philosophy</span></h2>
+            <p class="section-subtitle">The D.A.V.E Mindset</p>
+            
+            <div class="grid-4">
+                <div class="glass-card philosophy-card">
+                    <div class="ph-letter">D</div>
+                    <h4>Determined</h4>
+                    <p>Approaching every coding challenge with relentless focus and a refusal to give up.</p>
+                </div>
+                <div class="glass-card philosophy-card">
+                    <div class="ph-letter">A</div>
+                    <h4>Adaptable</h4>
+                    <p>Evolving quickly with the tech landscape, from new frameworks to modern design trends.</p>
+                </div>
+                <div class="glass-card philosophy-card">
+                    <div class="ph-letter">V</div>
+                    <h4>Visionary</h4>
+                    <p>Looking beyond the code to understand the bigger picture and user experience.</p>
+                </div>
+                <div class="glass-card philosophy-card">
+                    <div class="ph-letter">E</div>
+                    <h4>Eager</h4>
+                    <p>Always eager to learn, collaborate, and grow as a professional developer.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section container" id="skills">
+            <h2 class="section-title">My <span>Arsenal</span></h2>
+            <p class="section-subtitle">Technologies I use to bring ideas to life</p>
+            
+            <div class="skills-grid">
+                <div class="glass-card skill-box">
+                    <i class="fab fa-html5" style="color: #e34f26;"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="glass-card skill-box">
+                    <i class="fab fa-css3-alt" style="color: #264de4;"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="glass-card skill-box">
+                    <i class="fab fa-js" style="color: #f7df1e;"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="glass-card skill-box">
+                    <i class="fab fa-php" style="color: #777bb4;"></i>
+                    <span>PHP</span>
+                </div>
+                <div class="glass-card skill-box">
+                    <i class="fas fa-database" style="color: #00758f;"></i>
+                    <span>MySQL</span>
+                </div>
+                <div class="glass-card skill-box">
+                    <i class="fab fa-python" style="color: #3776ab;"></i>
+                    <span>Python</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section container" id="contact">
+            <h2 class="section-title">Let's <span>Connect</span></h2>
+            <p class="section-subtitle">Have a project in mind or just want to say hi? Drop a message!</p>
+            
+            <div class="grid-2">
+                <div class="glass-card contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out through any of these channels.</p>
+                    <div class="contact-links">
+                        <a href="mailto:dave@example.com"><i class="fas fa-envelope"></i> dave@example.com</a>
+                        <a href="#"><i class="fas fa-phone-alt"></i> +63 900 000 0000</a>
+                        <a href="#"><i class="fab fa-github"></i> github.com/davejohn</a>
+                        <a href="#"><i class="fab fa-facebook"></i> facebook.com/davejohn</a>
+                    </div>
+                </div>
+                
+                <div class="glass-card">
+                    <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form" id="contact-form">
+                        <div class="input-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-glow submit-btn">Send Message</button>
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Dave John S. Reyes. Designed with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
